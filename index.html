@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Object basics: Task 3</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+
+<body>
+  <form id="form" novalidate>
+    <label for="email">Email Address</label>
+    <input id="email" type="email" required>
+    <span id="email-error" class='error'></span>
+
+    <label for="country">Country</label>
+    <input id="country" type="text" required>
+    <span id="country-error" class='error'></span>
+
+    <label for="zip-code">Zip Code</label>
+    <input id="zip-code" type="text" pattern="^\d{5}" required>
+    <span id="zip-error" class='error'></span>
+
+    <label for="password">Password</label>
+    <input id="password" type="password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required>
+    <span id="password-error" class='error'></span>
+
+    <label for="password-validation">Verify Password</label>
+    <input id="password-validation" type="Password" required>
+    <span id="password-validation-error" class='error'></span>
+
+    <button id="submit-button">Submit</button>
+
+
+
+  </form>
+</body>
+
+<script src="script.js"></script>
+

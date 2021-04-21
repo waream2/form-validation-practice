@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+input {
+    width: 200px;
+    
+}
+
+input:valid {
+    border: solid;
+    border-width: .5px;
+    border-color: black;
+}
+
+input:invalid {
+    border: solid;
+    border-width: .5px;
+    border-color: red;
+}
+
+input:invalid:required {
+    border: solid;
+    border-width: .5px;
+    border-color: red;
+}
+
+.error {
+    color: red;
+    width: 210px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
