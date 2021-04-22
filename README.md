@@ -4,3 +4,5 @@ This project was a simply me trying to learn form validation. Nothing crazy here
 
 This project taught me:
 - Form Validation API
+
+https://waream2.github.io/form-validation-practice
